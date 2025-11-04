@@ -1,1 +1,10 @@
-#main code for mastermind 
+def play_again():
+  while True:
+    again = input("Would you like to play again? (y/n): ").lower
+    if again == "y":
+        return True
+    if again == "n":
+        return False
+    else:
+        print("Invalid input. Goodbye!")
+        break
