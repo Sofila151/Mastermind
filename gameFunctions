@@ -25,17 +25,15 @@ def score(colors, guess):
   return tuple([right, rightW])
 
 def main():
+    colors = ["r","g","b","red","green","blue"] 
     attempts = 0
     while True:
         user_guess = input("Enter your guess: ")
 
-        if user_guess == colors():
+        if user_guess == colors:
             print("You got it in one try, congratulations, you're a Mastermind!")
             play_again()
         if guess_checker(user_guess, colors) == True:
             print(score(colors, user_guess))
             attempts += 1
-
-
-main()
             
