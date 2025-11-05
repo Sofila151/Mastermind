@@ -20,7 +20,7 @@ file.write(
     "No peg means that color does not appear in the secret code.\n\n"
     "To begin, you will choose from 3 colors (Red, Blue, and Green)\n"
     "and type them in the order you think I put them in.\n"
-    "You can enter your guess like this: RBG or 'red green blue'.\n")
+    "You can enter your guess like this:'red', 'green', or 'blue'.\n")
 
 file.close()
 
