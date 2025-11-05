@@ -1,4 +1,5 @@
 def create_board():
+    """This function creates the game board base"""
     import turtle
     t = turtle.Turtle(shape = "turtle")
     t.color("black")
@@ -30,6 +31,7 @@ def create_board():
     return t
     
 def fillColors(t):
+    """This function collects the users input and then fills in the circles with the corresponding colors"""
     import turtle
     t = turtle.Turtle(shape = "turtle")
     t.ht()
@@ -56,6 +58,7 @@ def fillColors(t):
             t.end_fill()
             x_coord += 100
            
-        y_coord -= 100  # move to next row
+        y_coord -= 100  # move down to next row
 
     turtle.done()
+
