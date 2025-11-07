@@ -11,3 +11,6 @@ def play_again():
     else:
         print("Invalid input. Goodbye!")
         break
+
+def guess_check():
+  
