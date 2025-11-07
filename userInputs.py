@@ -1,18 +1,34 @@
 #User Inputs For Guesses
-import gameFunctions as F
+import turtle as t
 import gameRules as G
+#import gameFunctions as F
 
-file = open("Game_Rules.txt","r")
+#Present Game Rules
+file = open("gameRules.txt","r")
 
 file.read()
 
 file.close()
 
+#import game board to play
 import create_board as B
 
 gameBoard = B.create_board()
 gameColors = B.fillColors(t)
 
+
+# Next Steps:
+#playNew = F.play_again()
+#Asks the player if they would like to play a new round
+
+# checkGuess = guess_checker()  So we can check if the users answer is correct
+# Then, implement UI 
+
+# Attatch Score Board File
+
+
+    
+#also rename this file to "Main"
 
 
 
