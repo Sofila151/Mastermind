@@ -1,7 +1,7 @@
 #User Inputs For Guesses
 import turtle as t
 import gameRules as G
-#import gameFunctions as F
+import gameFunctions as F
 
 #Present Game Rules
 file = open("gameRules.txt","r")
