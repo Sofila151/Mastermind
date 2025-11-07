@@ -18,7 +18,7 @@ def guess_checker():
             return False
         return True
 
-def score(colors, guess):
+def score(colors, user_guess):
 """This function score the players game"""
   right = 0
   rightW = 0 
