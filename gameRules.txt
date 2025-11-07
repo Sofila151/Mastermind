@@ -1,0 +1,17 @@
+Welcome to Mastermind, Sofif!
+
+The game rules are simple: I will pick 3 colors and place them in a specific order.
+You will have 7 tries to figure out what I selected.
+
+Pegs on the side of the board will indicate if you have selected:
+the right color but wrong place,
+the right place but wrong color, or
+wrong color and wrong place.
+
+A black peg indicates a Code Peg of the right color and in the right position.
+A white peg indicates a Code Peg of the right color but in the wrong position.
+No peg means that color does not appear in the secret code.
+
+To begin, you will choose from 3 colors (Red, Blue, and Green)
+and type them in the order you think I put them in.
+You can enter your guess like this:'red', 'green', or 'blue'.
