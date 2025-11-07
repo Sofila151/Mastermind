@@ -1,4 +1,5 @@
 def random_Colors():
+    """this function generates three random numbers and assigns them to a list, it then creates a new list of three colors corresponding to the numbers generated"""
     import random
     numbers = []
     for i in range(3):
@@ -14,6 +15,7 @@ def random_Colors():
         else:
             colors.append("Green")
     return colors
+
 
 
 
