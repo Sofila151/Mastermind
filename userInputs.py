@@ -18,8 +18,8 @@ gameColors = B.fillColors(t)
 
 
 # Next Steps:
-#playNew = F.play_again()
 #Asks the player if they would like to play a new round
+playNew = F.play_again()
 
 # checkGuess = guess_checker()  So we can check if the users answer is correct
 # Then, implement UI 
