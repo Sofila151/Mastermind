@@ -1,7 +1,7 @@
 #User Inputs For Guesses
 import turtle as t
 import gameRules as G
-import gameFunctions as F
+#import gameFunctions as F
 import random_generation as R
 
 #Present Game Rules
@@ -23,7 +23,7 @@ gameColors = B.fillColors(t)
 
 # Next Steps:
 #Asks the player if they would like to play a new round
-playNew = F.play_again()
+#playNew = F.play_again()
 
 # checkGuess = guess_checker()  So we can check if the users answer is correct
 # Then, implement UI 

@@ -1,7 +1,7 @@
 #Game Functions
 
 def play_again():
-"""This function asks the player if they would like to begin a new game round"""
+  """This function asks the player if they would like to begin a new game round"""
   while True:
     again = input("Would you like to play again? (y/n): ").lower
     if again == "y":
