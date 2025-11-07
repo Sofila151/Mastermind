@@ -2,6 +2,7 @@
 import turtle as t
 import gameRules as G
 import gameFunctions as F
+import random_generation as R
 
 #Present Game Rules
 file = open("gameRules.txt","r")
@@ -9,6 +10,9 @@ file = open("gameRules.txt","r")
 file.read()
 
 file.close()
+
+#Select Colors
+randomColors = R.random_Colors()
 
 #import game board to play
 import create_board as B
