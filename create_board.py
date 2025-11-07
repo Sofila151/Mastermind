@@ -34,6 +34,7 @@ def fillColors(t):
     """This function collects the users input and then fills in the circles with the corresponding colors"""
     import turtle
     t = turtle.Turtle(shape = "turtle")
+    t.speed(100)
     t.ht()
     
     y_coord = 300  # Start at top row
@@ -61,4 +62,5 @@ def fillColors(t):
         y_coord -= 100  # move down to next row
 
     turtle.done()
+
 
