@@ -1,6 +1,6 @@
 #Game Rules and User Inputs Intro
 
-file = open("Game_Rules.txt", "w")
+file = open("gameRules.txt", "w")
 
 Username = input("Enter your name to begin: ")
 
@@ -25,7 +25,7 @@ file.write(
 file.close()
 
 # Read
-file = open("Game_Rules.txt", "r")
+file = open("gameRules.txt", "r")
 
 contents = file.read()
 print(contents)
