@@ -32,11 +32,6 @@ def create_board():
     
 def fillColors(t):
     """This function collects the users input and then fills in the circles with the corresponding colors"""
-    import turtle
-    t = turtle.Turtle(shape = "turtle")
-    t.speed(100)
-    t.ht()
-    
     y_coord = 300  # Start at top row
     print("Enter your guess left to right. Options: red, blue, or green")
 
@@ -60,7 +55,7 @@ def fillColors(t):
             x_coord += 100
            
         y_coord -= 100  # move down to next row
+    return t
 
-    turtle.done()
 
 
