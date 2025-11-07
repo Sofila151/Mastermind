@@ -1,6 +1,5 @@
-import random
-
 def number_generator():
+    import random
     numbers = []
     for i in range(3):
         num = random.randint(1,3)
@@ -11,6 +10,7 @@ numbers = number_generator()
 print(numbers)
 
 def assign_colors(numbers):
+    import random
     colors = []
     for i in range(3):
         number = numbers[i]
@@ -24,3 +24,4 @@ def assign_colors(numbers):
 
 colors = assign_colors(numbers)
 print(colors)
+
