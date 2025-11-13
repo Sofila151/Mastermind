@@ -12,5 +12,15 @@ def play_again():
         print("Invalid input. Goodbye!")
         break
 
+import random_Colors() as rc
+import create_board() as cb
 def guess_check():
+  colors = rc.colors
+  guess1 = cb.Circle1
+  guess2 = cb.Circle2
+  guess3 = cb.Circle3
+  while guess1 != colors[0]:
+    
+    
+  
   
