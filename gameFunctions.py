@@ -20,6 +20,14 @@ def guess_check():
   guess2 = cb.Circle2
   guess3 = cb.Circle3
   while guess1 != colors[0]:
+    return False
+    if true:
+      
+  while guess2 != colors[1]:
+    return False
+  while guess3 != colors[2]:
+    return False
+  
     
     
   
