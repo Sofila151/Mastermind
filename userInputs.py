@@ -1,7 +1,7 @@
 #User Inputs For Guesses
 import turtle as t
 import gameRules as G
-#import gameFunctions as F
+import gameFunctions as F
 import random_generation as R
 
 #Present Game Rules
@@ -16,9 +16,13 @@ randomColors = R.random_Colors()
 
 #import game board to play
 import create_board as B
-
 gameBoard = B.create_board()
-gameColors = B.fillColors(t)
+
+for round_num in range(7):
+    user_guess = F.userGuesses()
+    gameColors = B.fillColors(t,user_guess,round_num)
+    checkGuess = F.guess_checker()
+
 
 
 # Next Steps:

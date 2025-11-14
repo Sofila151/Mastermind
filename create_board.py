@@ -30,32 +30,29 @@ def create_board():
         ycoord -= 100
     return t
     
-def fillColors(t):
+def fillColors(t,userGuesses,round_num):
     """This function collects the users input and then fills in the circles with the corresponding colors"""
-    y_coord = 300  # Start at top row
-    print("Enter your guess left to right. Options: red, blue, or green")
+    y_coord = 300 - (round_num * 100)
+    x_coord = -100
 
-    for round_num in range(1, 8): 
-
-        Circle1 = input(f"Round {round_num} guess 1/3: ").lower()
-        Circle2 = input(f"Round {round_num} guess 2/3: ").lower()
-        Circle3 = input(f"Round {round_num} guess 3/3: ").lower()
-
-        x_coord = -100  # start at left circle
-
-        # Fill the row with colors the user inputs
-        for color in [Circle1, Circle2, Circle3]:
+    for colors in userGuesses:
             t.up()
             t.goto(x_coord, y_coord)
             t.down()
-            t.fillcolor(color)
+            t.fillcolor(colors)
             t.begin_fill()
             t.circle(25)
             t.end_fill()
             x_coord += 100
-           
-        y_coord -= 100  # move down to next row
     return t
+
+def fillPegs(colors,userGuesses):
+    import gameFunctions as gf
+    guess_checker = gf.guess_checker()
+    
+    for num in range(2):
+        
+        
 
 
 
