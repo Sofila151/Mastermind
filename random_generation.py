@@ -9,12 +9,13 @@ def random_Colors():
     for i in range(3):
         number = numbers[i]
         if number == 1:
-            colors.append("Red")
+            colors.append("red")
         elif number == 2:
-            colors.append("Blue")
+            colors.append("blue")
         else:
-            colors.append("Green")
+            colors.append("green")
     return colors
+
 
 
 
