@@ -20,12 +20,13 @@ for round_num in range(1,8):
     pegs = result[0]
     guesses = result[1]
     for i in range(3):
-        gameColors = B.fillColors(t,guesses[i],round_num)
+        gameColors = cb.fillColors(t,guesses,round_num)
     if "white" not in pegs and "blank" not in pegs:
         print("Congratulations!!!\n You solved the Secret Code!")
         break
     elif "white" in pegs or "blank" in pegs:
         print("Looks like you're still missing some of the code! \n Try again!")
+
 
 
 
