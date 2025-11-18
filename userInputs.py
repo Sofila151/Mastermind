@@ -12,7 +12,7 @@ file.read()
 file.close()
 
 #Select Colors
-randomColors = R.random_Colors()
+
 
 #import game board to play
 import create_board as B
@@ -21,6 +21,7 @@ gameBoard = B.create_board()
 for round_num in range(7):
     user_guess = F.userGuesses()
     gameColors = B.fillColors(t,user_guess,round_num)
+    colorCode = C.random_Colors()
     checkGuess = C.guess_checking(colorCode) # Code they are guessing
     
     
