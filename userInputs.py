@@ -4,6 +4,7 @@ import gameRules as G
 import gameFunctions as F
 import random_generation_function as R
 import guess_checker_function as C
+import 7rounds as 7r
 #Present Game Rules
 file = open("gameRules.txt","r")
 
@@ -19,7 +20,7 @@ import create_board as B
 gameBoard = B.create_board()
 
 for round_num in range(7):
-    user_guess = F.userGuesses()
+    
     gameColors = B.fillColors(t,user_guess,round_num)
     colorCode = C.random_Colors()
     checkGuess = C.guess_checking(colorCode) # Code they are guessing
