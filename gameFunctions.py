@@ -1,6 +1,6 @@
 #Game Functions
 import random
-import random_generation as rg
+import random_generation_function as rg
 
 def play_again():
   """This function asks the player if they would like to begin a new game round"""

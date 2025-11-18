@@ -46,11 +46,11 @@ def fillColors(t,userGuesses,round_num):
             x_coord += 100
     return t
 
-def fillPegs(colors,userGuesses):
-    import gameFunctions as gf
-    guess_checker = gf.guess_checker()
+#def fillPegs(colors,userGuesses):
+  #  import gameFunctions as gf
+  #  guess_checker = gf.guess_checker()
     
-    for num in range(2):
+   # for num in range(2):
         
         
 
