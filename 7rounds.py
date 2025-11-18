@@ -1,8 +1,11 @@
 import guess_checker_function as gcf
 import random_generation as gen
+import create_board as cb
+import gameRules as gr
 
-color_code = gen.number_generator()
-print(color_code)
+
+
+color_code = gen.()
 
 for i in range(7):
     print(f"Round {i+1}")
@@ -14,3 +17,4 @@ for i in range(7):
         break
     elif "white" in pegs or "blank" in pegs:
         print("Looks like you're still missing some of the code! \n Try again!")
+
