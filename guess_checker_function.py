@@ -46,7 +46,7 @@ def guess_checking(color_code):
             guesses_made.remove(guessed)#keeps from checking a guess twice and
             guesses_made.insert(i, None)#falsely assigning a white peg
         else:
-            pegs.append(None)
+            pegs.append("white")
 
     #checks if the guess has the right color in the wrong place and assigns a white peg
     for i in range(3):
