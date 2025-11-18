@@ -1,5 +1,5 @@
 import guess_checker_function as gcf
-import random_generation as gen
+import random_generation_function as gen
 import create_board as cb
 import gameRules as gr
 import turtle as t
@@ -12,7 +12,7 @@ file.close()
 
 game_board = cb.create_board()
 
-color_code = gen.()
+color_code = gen.random_Colors()
 
 for round_num in range(1,8):
     print(f"Round {round_num}")
@@ -26,5 +26,6 @@ for round_num in range(1,8):
         break
     elif "white" in pegs or "blank" in pegs:
         print("Looks like you're still missing some of the code! \n Try again!")
+
 
 
