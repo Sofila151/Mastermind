@@ -30,12 +30,12 @@ def create_board():
         ycoord -= 100
     return t
     
-def fillColors(t,userGuesses,round_num):
+def fillColors(t,guesses,round_num):
     """This function collects the users input and then fills in the circles with the corresponding colors"""
-    y_coord = 300 - (round_num * 100)
+    y_coord = 400 - (round_num * 100)
     x_coord = -100
 
-    for colors in userGuesses:
+    for colors in guesses:
             t.up()
             t.goto(x_coord, y_coord)
             t.down()
@@ -44,22 +44,24 @@ def fillColors(t,userGuesses,round_num):
             t.circle(25)
             t.end_fill()
             x_coord += 100
+
+            
     return t
 
-def fillColors(t,userGuesses,round_num):
+def fillPegs(t,pegs,round_num):
     """This function collects the users input and then fills in the circles with the corresponding colors"""
-    y_coord = 315 - (round_num * 100)
+    y_coord = 415 - (round_num * 100)
     x_coord = 175
 
-    for colors in userGuesses:
+    for colors in pegs:
             t.up()
             t.goto(x_coord, y_coord)
             t.down()
             t.fillcolor(colors)
             t.begin_fill()
-            t.circle(25)
+            t.circle(10)
             t.end_fill()
-            x_coord += 100
+            x_coord += 50
             
     return t
         

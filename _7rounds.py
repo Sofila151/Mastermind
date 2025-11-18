@@ -1,6 +1,5 @@
 import guess_checker_function as gcf
 import random_generation_function as gen
-import create_board as cb
 import gameRules as gr
 import turtle as t
 
