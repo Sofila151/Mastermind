@@ -52,12 +52,12 @@ def guess_checking(color_code):
     for i in range(3):
         if guesses_made[i] is not None:
             if guesses_made[i] in guessable_colors:
-                pegs[i] = "white"
+                pegs[i] = "grey"
                 guessable_colors[guessable_colors.index(guesses_made[i])] = None
                 #also ensures that a color will not be used twice after a peg is colored
             else:
-                pegs[i] = "blank"
-    return pegs, guesses
+                pegs[i] = "white"
+    return [pegs, guesses]
 
 
 
