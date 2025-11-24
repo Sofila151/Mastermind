@@ -1,4 +1,5 @@
 #File Purpose: Creates Game UI
+#Main Contributors to File: Sofia and Danica
 def create_board():
     """This function creates the game board base"""
     import turtle
@@ -66,7 +67,3 @@ def fillPegs(t,pegs,round_num):
             
     return t
             
-        
-
-
-# Call list from guess checker 

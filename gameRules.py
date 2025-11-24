@@ -1,4 +1,5 @@
 #File Purpose: Gives Game Rules and Takes User Inputs Intro
+#Main Contributor to File: Sofia
 
 file = open("gameRules.txt", "w")
 

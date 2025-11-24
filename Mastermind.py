@@ -10,6 +10,8 @@
 # - Nyx Silva
 #File Purpose: Main Program File
 
+#Main Contributor to File: Sofia and Danica 
+
 import turtle as t
 import gameRules as G
 import gameFunctions as F

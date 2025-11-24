@@ -1,7 +1,8 @@
 #File Purpose: Keep Game Functions to check, play again, and take guesses
+#Main Contributor to File: Sofia
 import random
 
-def play_again():
+def play_again():n
   """This function asks the player if they would like to begin a new game round"""
   answer = input("Do you want to play again? (y/n): ").lower()
   if answer == "y":

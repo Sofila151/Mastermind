@@ -1,3 +1,4 @@
+#Main Contributor to File: Danica
 #Generates Random Colors and Checks the Guesses the Player Inputs
 def random_Colors():
     """this function generates three random numbers and assigns them to a list, it then creates a new list of three colors corresponding to the numbers generated"""
