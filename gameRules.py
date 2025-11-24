@@ -1,4 +1,4 @@
-#Game Rules and User Inputs Intro
+#File Purpose: Gives Game Rules and Takes User Inputs Intro
 
 file = open("gameRules.txt", "w")
 

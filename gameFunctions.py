@@ -1,4 +1,4 @@
-#Game Functions
+#File Purpose: Keep Game Functions to check, play again, and take guesses
 import random
 
 def play_again():

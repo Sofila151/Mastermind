@@ -1,3 +1,4 @@
+#File Purpose: Creates Game UI
 def create_board():
     """This function creates the game board base"""
     import turtle
