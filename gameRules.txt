@@ -1,4 +1,4 @@
-Welcome to Mastermind, sid!
+Welcome to Mastermind, d!
 
 The game rules are simple: I will pick 3 colors and place them in a specific order.
 You will have 7 tries to figure out what I selected.
