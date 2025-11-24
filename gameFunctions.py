@@ -1,19 +1,13 @@
 #Game Functions
 import random
-import random_generation_function as rg
 
 def play_again():
   """This function asks the player if they would like to begin a new game round"""
-  while True:
-    again = input("Would you like to play again? (y/n): ").lower
-    if again == "y":
-        return True
-    if again == "n":
-        return False
-    else:
-        print("Invalid input. Goodbye!")
-        break
-
+  answer = input("Do you want to play again? (y/n): ").lower()
+  if answer == "y":
+      return True
+  else:
+      return False
 
 def userGuesses():
 
