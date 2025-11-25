@@ -45,8 +45,8 @@ while True:#Loop to enable play again functionality
     print("Game Over!")
     
     if not F.play_again():
-        print("Thanks for playing!")
         break
+    
     else:
         t.clearscreen()
 
