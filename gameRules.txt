@@ -1,4 +1,4 @@
-Welcome to Mastermind, SOFIA!
+Welcome to Mastermind, SOfa!
 
 The game rules are simple: I will pick 3 colors and place them in a specific order.
 You will have 7 tries to figure out what I selected.

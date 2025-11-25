@@ -20,6 +20,8 @@ def random_Colors():
 
 def guess_checking(color_code):
     #takes the guesses from the user and puts them in a list
+    """this function takes user inputs for the colors and verifies whether or not they are in the secret code, it then returns if the
+    color was in the correct spot, in an incorrect spot, or not in the code at all"""
     order = ["first", "second", "third"]
     guesses = []
     for i in range(3):
